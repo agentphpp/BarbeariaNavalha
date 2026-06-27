@@ -60,27 +60,11 @@ const HomeScreenBarbeiro = ({ navigation, route }) => {
           </Text>
         </View>
 
-        {/* Cards de informações rápidas */}
-        <View style={styles.cardsContainer}>
-          <View style={styles.card}>
-            <Text style={styles.cardIcon}>📅</Text>
-            <Text style={styles.cardTitle}>Agendamentos</Text>
-            <Text style={styles.cardValue}>8</Text>
-            <Text style={styles.cardSubtext}>Hoje</Text>
-          </View>
+      
 
-          <View style={styles.card}>
-            <Text style={styles.cardIcon}>👤</Text>
-            <Text style={styles.cardTitle}>Clientes</Text>
-            <Text style={styles.cardValue}>12</Text>
-            <Text style={styles.cardSubtext}>Total</Text>
-          </View>
-        </View>
+       
 
-        {/* Dica */}
-        <View style={styles.tipContainer}>
-          <Text style={styles.tipText}>💡 Dica: Toque em "Agendamentos" para ver todos os horários</Text>
-        </View>
+       
       </View>
     </View>
   );
@@ -90,7 +74,7 @@ const HomeScreenBarbeiro = ({ navigation, route }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0A0A0A',
+    backgroundColor: '#1d1d1d',
   },
   header: {
     flexDirection: 'row',

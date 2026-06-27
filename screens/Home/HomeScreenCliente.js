@@ -59,11 +59,7 @@ const HomeScreenCliente = () => {
   };
 
   return (
-    <ImageBackground
-      source={require('../../assets/Straight-Razor.png')}
-      style={styles.background}
-      imageStyle={styles.backgroundImage}
-    >
+   
       <View style={styles.overlay}>
         <View style={styles.container}>
           {/* Header */}
@@ -83,13 +79,7 @@ const HomeScreenCliente = () => {
             </TouchableOpacity>
           </View>
 
-          {/* Informações do perfil */}
-          <View style={styles.infoBox}>
-            <Text style={styles.infoTitle}>📅 Área do Cliente</Text>
-            <Text style={styles.infoSubtext}>
-              Agende seus horários e acompanhe seus serviços
-            </Text>
-          </View>
+       
 
           {/* Conteúdo Principal */}
           <ScrollView 
@@ -117,7 +107,7 @@ const HomeScreenCliente = () => {
           </View>
         </View>
       </View>
-    </ImageBackground>
+   
   );
 };
 
@@ -195,6 +185,7 @@ const styles = StyleSheet.create({
   },
   scrollContent: {
     paddingBottom: 20,
+    marginTop: 30
   },
   newAppointmentButton: {
     backgroundColor: '#C5A059',

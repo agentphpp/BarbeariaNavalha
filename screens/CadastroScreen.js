@@ -60,11 +60,7 @@ const CadastroScreen = () => {
   };
 
   return (
-    <ImageBackground
-      source={require('../assets/Straight-Razor.png')}
-      style={styles.background}
-      imageStyle={styles.backgroundImage}
-    >
+    
       <View style={styles.overlay}>
         <ScrollView contentContainerStyle={styles.container} showsVerticalScrollIndicator={false}>
           <TouchableOpacity 
@@ -75,7 +71,7 @@ const CadastroScreen = () => {
           </TouchableOpacity>
 
           <View style={styles.logoContainer}>
-            <Text style={styles.logoIcon}>📝</Text>
+            
             <Text style={styles.logoTitle}>Criar Conta</Text>
             <View style={styles.divider} />
             <Text style={styles.logoSubtext}>Seja bem-vindo à nossa barbearia</Text>
@@ -130,7 +126,7 @@ const CadastroScreen = () => {
           </View>
         </ScrollView>
       </View>
-    </ImageBackground>
+    
   );
 };
 
